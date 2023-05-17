@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px) {
+
+    nav ul{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav ul li{
+        height: 2.5vh;
+    }
+    .item p{
+    width: 479px;
+    top: 13px;
+    left: 1px;
+    }
+    .item img{
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .logo img{
+        position: relative;
+        right: 25px;
+    }
+    
+    nav ul {
+        position: relative;
+        right: 73px;
+    }
+    nav input{
+        position: relative;
+        right: 39px;
+    }
+
+    .btn{
+        position: relative;
+        right: 114px;
+        padding: 2px;
+    }
+    .item img{
+        height: 120px;
+    }
+    .container{
+         flex-direction: column;
+    }
+    .item{
+        width: 333px;
+        height: 360px;
+    }
+    .bar{
+        position: relative;
+        right: 67px;
+    }
+    .item p{
+        width:333px;
+    }
+    .audio{
+        width: 325px;
+    }
+}
